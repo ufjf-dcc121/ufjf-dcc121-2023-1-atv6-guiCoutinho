@@ -16,9 +16,9 @@
     let n1 = document.getElementById("numero1");
     let n2 = document.getElementById("numero2");
     let resultado = document.getElementById("resultado");
-    let n3 = parseInt(n1.innerText) + parseInt(n2.innerText);
+    let n3 = Number(n1.innerText) + Number(n2.innerText);
 
-    resultado.innerText = `${n3}`;
+    resultado.innerText = n3;
 
 </script>
 
