@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    <p id="numero1">2</p>
+    <p id="numero2">3</p>
+    <p id="resultado">?</p>
+</body>
+
+<script>
+    let n1 = document.getElementById("numero1");
+    let n2 = document.getElementById("numero2");
+    let resultado = document.getElementById("resultado");
+    let n3 = parseInt(n1.innerText) + parseInt(n2.innerText);
+
+    resultado.innerText = `${n3}`;
+
+</script>
+
+</html>
